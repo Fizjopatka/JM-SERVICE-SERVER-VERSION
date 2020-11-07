@@ -1,0 +1,56 @@
+/* SECTION */
+section {
+    font-family: 'Jockey One', sans-serif;
+    background-image: url(img/footer_lodyas.png);
+}
+
+.oferta-column {
+    background: var(--offerwhite);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, var(--white), var(--offerwhite));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, var(--white), var(--offerwhite)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1.5rem;
+    width: 100%;
+}
+
+img {
+    position: center;
+}
+
+.oferta-column h3 {
+    line-height: 1.6;
+    font-size: 1.4rem;
+    text-justify: auto;
+}
+
+.photo {
+    border: solid 1px var(--white);
+    object-fit: cover;
+    opacity:90%;
+    background-color: var(--offerwhite);
+}
+
+.photo:hover {
+    opacity:100%;
+}
+
+.phone-number {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.phone-number:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+}
+
+.contact-header {
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.contact-feed {
+    font-size: 1.3rem;
+}

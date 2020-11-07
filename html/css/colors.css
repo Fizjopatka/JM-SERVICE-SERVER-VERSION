@@ -1,0 +1,19 @@
+:root {
+    /*WHITE, SILVER */
+    --white: rgb(255, 255, 255);
+    --white90: rgba(255, 255, 255, 0.9);
+    --offerwhite: rgb(235,235,235); 
+    --silver: rgb(223, 222, 222);
+    --littlegrey: rgb(214, 214, 214);
+    --slidergrey: rgb(151, 151, 151);
+    /*RED*/
+    --red: rgb(206, 29, 29);
+    --red80: rgba(206, 29, 29, 0.80);
+    --red60: rgba(206, 29, 29, 0.60);
+    /*GREY, BLACK*/
+    --charcoal: rgb(50, 52, 53); 
+    --darkgrey: rgb(25, 27, 27);
+    --navblack: rgb(27, 27, 27);
+    --black75: rgba(0, 0, 0, 0.75);
+    --black: rgb(0, 0, 0);
+}
